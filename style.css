@@ -1,0 +1,75 @@
+
+@font-face {
+	font-family: montserrat;
+	src: url(/fonts/montserrat-medium.woff2);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: montserrat;
+	src: url(/fonts/montserrat-regular.woff2);
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: montserrat;
+	src: url(/fonts/montserrat-semibold.woff2);
+	font-weight: 600;
+}
+
+
+@font-face {
+	font-family: PlayfairDisplay;
+	src: url(/fonts/PlayfairDisplay-Bold.woff2);
+}
+
+* {
+	font-family: montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	position: fixed;
+	top: 70px;
+	z-index: 10;
+
+}
+
+.nav-item {
+	border: solid 1px #fff;
+	border-left: none;
+}
+
+.nav-item .nav-link {
+	color: #fff;
+}
+
+.nav-item:last-child {
+	border-right: none;
+}
+
+.first-screen {
+	position: relative;
+	
+	height: 900px;
+
+	background-image: url('/img/first-screen-bgc.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.btn {
+	background-color: #99862A;
+	border-color: #99862A;
+	border-radius: 0;
+
+	font-size: 16px;
+	font-weight: 500;
+
+	text-transform: uppercase;
+}
